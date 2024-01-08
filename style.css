@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
 .container {
     position: relative;
     text-align: center;
     color: white;
-  }
+}
+
 .centered {
     position: absolute;
     font-family: 'Merriweather', serif;
@@ -14,7 +16,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.centered01{
+
+.centered01 {
     position: absolute;
     font-family: 'Merriweather', serif;
     font-weight: 900;
@@ -24,40 +27,44 @@
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
     transform: translate(-50%, -50%);
 }
-.temp01{
+
+.temp01 {
     filter: brightness(0.6);
 }
-.font01{
+
+.font01 {
     font-weight: 700;
     font-size: 80px;
     font-family: 'Inter', sans-serif;
     color: red;
-    
+
 }
 
-.font02{
-   font-size: small;
+.font02 {
+    font-size: small;
     font-family: 'Inter', sans-serif;
     font-size: 23px;
     color: red;
-    
+
 }
-.font03{
+
+.font03 {
     font-size: small;
-     font-family: 'Inter', sans-serif;
-     font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
     font-size: 50px;
     color: black;
-     
- }
- 
-.img2{
+
+}
+
+.img2 {
     position: absolute;
     top: 50%;
     left: 70%;
     transform: translate(-50%, -50%);
 }
-.font04{
+
+.font04 {
     position: absolute;
     font-family: 'Merriweather', serif;
     font-size: 70px;
@@ -67,7 +74,8 @@
     left: 20%;
     transform: translate(-50%, -50%);
 }
-.font05{
+
+.font05 {
     position: absolute;
     font-family: 'Merriweather', serif;
     font-size: 70px;
@@ -77,37 +85,76 @@
     left: 30%;
     transform: translate(-50%, -50%);
 }
-.font06{
+
+.font06 {
     position: absolute;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
-   color:whitesmoke;
-   
+    color: whitesmoke;
+
     top: 60%;
     left: 33%;
     transform: translate(-50%, -50%);
 }
-.font07{
+
+.font07 {
     position: absolute;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
-   color:whitesmoke;
-   
+    color: whitesmoke;
+
     top: 65%;
     left: 28.5%;
     transform: translate(-50%, -50%);
 }
-.font08{
+
+.font08 {
     position: absolute;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 550;
-   color:white;
-   
+    color: white;
+
     top: 75%;
     left: 18%;
     transform: translate(-50%, -50%);
 }
-.temp02{
+
+.temp02 {
     filter: brightness(0.4);
+}
+
+.img3 {
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.temp03 {
+    background: white;
+    width: 1320px;
+    height: 986px;
+}
+
+.img4 {
+    position: absolute;
+    width: 429px;
+    height: 433px;
+
+    top: 63.2%;
+    left: 81.3%;
+    transform: translate(-50%, -50%);
+}
+
+.temp04 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+
+    border-radius: 50% white;
+
+    padding: 15px;
+    left: 55%;
+    top: 50%;
 }
